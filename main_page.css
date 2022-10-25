@@ -1,49 +1,49 @@
-main{
-    background-color: rgba(0, 0, 0, 0.846);
-}
-
 h1 {
-    margin-top: 0;
-    padding-top: 50px;
+    /* margin-top: 0;
+    padding-top: 50px; */
     text-align: center;
+    color: rgb(238, 163, 80);
+    font-size: 48px;
 }
 
-main ul {
-    display: flex;
-    text-align: center;
-    justify-content:center;
+#latest-products {
+    width: 80%;
+    margin: 50px auto;
+    
 }
 
-
-.menu {
-    margin: 50px 10px;
-    border-radius: 5px;
+#latest-products ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-.menu img {
-    display: inline-block;
-    width: 300px;
-    height: 200px;
+.menu-item {
+    background-color: rgb(228, 206, 182);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.menu-item img {
+    height: 240px;
+    width: 100%;
     object-fit: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
-.menu  {
-    background-color: rgba(255, 225, 192, 0.937);
-}
- 
-.menu p {
-    margin: 10px auto 5px auto;
-    font-weight: bold;
-    color: black;
+.menu-item-content {
+    padding: 16px;
+    text-align: center;
 }
 
-.menu button {
+.btn {
+    background-color: rgb(228, 157, 44);
     color: white;
-    margin-bottom: 5px;
-    padding: 5px 15px;
-    background-color: rgba(255, 166, 0, 0.656);
-    border: none;
-    border-radius: 5px
+    border-radius: 4px;
+    padding: 8px 24px;
+}
+
+.btn:hover {
+    background-color: rgb(221, 134, 34);
 }
