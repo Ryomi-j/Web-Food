@@ -11,11 +11,12 @@ h1 {
 main ul {
     display: flex;
     text-align: center;
+    justify-content:center;
 }
 
 
 .menu {
-    margin: 50px auto;
+    margin: 50px 10px;
     border-radius: 5px;
 }
 

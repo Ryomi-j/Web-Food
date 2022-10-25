@@ -13,7 +13,8 @@ header {
   align-items: center;
 }
 
-#page-logo a {
+#page-logo,
+nav ul {
   text-decoration: none;
   font-size: 30px;
   font-weight: bolder;
